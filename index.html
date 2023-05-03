@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneak Bet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Matched Betting Webseite</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Startseite</a></li>
+          <li><a href="#">Surebets</a></li>
+          <li><a href="#">Matched Wetten</a></li>
+          <li><a href="#">Rechner</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Surebets</h2>
+        <p>Hier finden Sie eine Liste der aktuellen Surebets von verschiedenen Buchmachern.</p>
+        <table id="surebetsTable">
+          <thead>
+            <tr>
+              <th>Buchmacher</th>
+              <th>Ereignis</th>
+              <th>Quote 1</th>
+              <th>Quote 2</th>
+              <th>Gewinnchance</th>
+              <th>Profit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Hier werden die API-Daten eingefügt -->
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Matched Wetten</h2>
+        <p>Hier finden Sie eine Liste der aktuellen Möglichkeiten für Matched Wetten.</p>
+        <table id="matchedBetsTable">
+          <thead>
+            <tr>
+              <th>Buchmacher 1</th>
+              <th>Buchmacher 2</th>
+              <th>Ereignis</th>
+              <th>Quote 1</th>
+              <th>Quote 2</th>
+              <th>Gewinnchance</th>
+              <th>Profit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Hier werden die API-Daten eingefügt -->
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Rechner</h2>
+        <p>Hier finden Sie verschiedene Rechner für Matched Wetten.</p>
+        <ul>
+          <li><a href="#">Surebet-Rechner</a></li>
+          <li><a href="#">Back/Lay-Rechner</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Sneak Bet</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
